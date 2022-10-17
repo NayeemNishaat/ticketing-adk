@@ -9,7 +9,7 @@
   ],
   "scripts": {
     "build": "tsc",
-    "publish": "git add -A && git commit -m \"updated\" && git push && npm version patch && npm run build && npm publish"
+    "publish": "git add -A && git commit -m \"updated\" && npm version patch && npm run build && npm publish"
   },
   "keywords": [],
   "author": "",

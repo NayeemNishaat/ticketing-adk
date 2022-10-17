@@ -11,5 +11,5 @@ const color: Color = {
 };
 
 console.log(color);
-
+console.log(67888);
 export default color;
