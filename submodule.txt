@@ -1,0 +1,2 @@
+git submodule add <remote_url> <destination_folder>
+git submodule add https://github.com/NayeemNishaat/ticketing-sdk.git common
