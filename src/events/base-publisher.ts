@@ -9,9 +9,7 @@ interface Event {
 export abstract class Publisher<T extends Event> {
   abstract subject: T["subject"];
 
-  constructor(private client: Stan) {
-    this.client = client;
-  }
+  constructor(protected client: Stan) {} // Note: Shorthand for, protected client: Stan and this.client = client // Remark: parameter properties
 
   publish(data: T["data"]): Promise<void> {
     return new Promise((resolve, reject) => {
